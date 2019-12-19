@@ -12,6 +12,7 @@ int pinSwitch = 9;
 int state = 0;
 long randomNumber;
 
+// Functions to switch the LEDs on
 void rollOne() {
   digitalWrite(middle, HIGH);
 }
